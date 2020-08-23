@@ -19,3 +19,10 @@ Kicken:
    ```php
    $player->close($grund);
    ```
+Bannen:
+   Um Spieler zubannen, gibt es eine Art, aber 
+   viele würden es falsch machen. Die meisten würden `ban();`
+   benutzen... Hier ist es richtig 😀
+   ```php
+   $player->setBanned($grund, /*True = Ja, False = nein*/true);
+   ```
