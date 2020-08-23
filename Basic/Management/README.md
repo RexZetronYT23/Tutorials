@@ -8,3 +8,14 @@ Gamemode:
    ```php
       $player->setGamemode(1);
    ```
+Kicken:
+   Um Spieler zukicken, gibt es 2 verschiedene
+   möglichkeiten.
+   Variante 1:
+   ```php
+   $player->kick($grund);
+   ```
+   Variante 2:
+   ```php
+   $player->close($grund);
+   ```
